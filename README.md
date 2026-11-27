@@ -11,7 +11,7 @@
 3. pausing and resuming a process
 * Then explain the job of 
 1. Loader   2. Linker
-Then use Makefiles to auto compilation
+* Then use Makefiles to auto compilation
 ## Installation
 * sudo apt install gcc make git
 ## Projact structure
