@@ -1,0 +1,28 @@
+1-Linker : joins the files into 1 program
+ 
+2-Loader : runs when start the program from disk to memory
+
+3-Exercise1(process creation) : fork() creat a new copy called child from parent 
+pid = 0 (the output will get the child pid)
+pid > 0 (the output will get the parent pid)
+else (the output will be failed)
+
+4-Exercise2(start processes) :
+sleep 300 & -> start a process in the background for 300 s using & 
+jobs -> list the running background processes 
+
+5-Exercise3(stopping processes) :
+ps aux | grep sleep -> (ps) to find process id pid of the sleep process you started
+kill PID -> use kill to stop the process
+then use ps aux | grep sleep again to make sure that the PID is killed 
+
+6-Exercise4(pausing and resuming processes):
+kill -STOP PID -> pause a process
+Kill -CONT PID -> resume the process 
+and use  ps aux | grep sleep to check 
+
+7-Exercise5(role of the linker) :
+create file1.c and file2.c and linked together
+
+8-Exercise5(role of loader) :
+creat simpleProgram.c and use ldd to list the dynamic libraries 
