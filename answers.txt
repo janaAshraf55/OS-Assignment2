@@ -23,6 +23,10 @@ and use  ps aux | grep sleep to check
 
 7-Exercise5(role of the linker) :
 create file1.c and file2.c and linked together
+and after modify file1.c the output change
 
 8-Exercise5(role of loader) :
-creat simpleProgram.c and use ldd to list the dynamic libraries 
+creat simpleProgram.c and use ldd to list the dynamic libraries
+linux-vdso.so.1 -> virtual library to help programs perform efficiently
+lib.so.6 -> standard C library
+ld-linux-x86-64.so.2 -> dymnamic loader
