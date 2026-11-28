@@ -26,8 +26,8 @@ OS-Assignment
     * Ex2 Starting process.png
     * Ex3 Stopping process.png
     * Ex4 Pausing and resuming a process.png
-    * Ex5 after modify.png
     * Ex5 Role of the linker.png
+    * Ex5 after modify.png
     * Ex6 Role of the loader.png
     * file1.c after modify.png 
     * run Makefile.png
